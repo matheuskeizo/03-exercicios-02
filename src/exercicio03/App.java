@@ -25,6 +25,6 @@ public class App {
         System.out.println("A distancia dos pontos para origem:"+fM.format(p2.distOrig()));
         System.out.println();
         Ponto aux=p1.pontoMaisProx(p1,p2);
-        System.out.println("Ponto mais próximo da origem:"+fM.format(aux.formatPonto()));
+        System.out.println("Ponto mais próximo da origem:"+(aux.formatPonto()));
     }
 }
